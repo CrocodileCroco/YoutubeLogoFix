@@ -7,4 +7,10 @@
 // ==/UserScript==
 
 
+function removeattributionlink() {
 $("area").attr("href", "https://www.youtube.com/")
+}
+
+removeattributionlink();
+
+setInterval(removeattributionlink, 2);
